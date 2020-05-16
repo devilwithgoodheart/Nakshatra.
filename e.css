@@ -1,0 +1,92 @@
+*{margin:0;
+padding:0;
+font-family: Josefin Sans;
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic4.jpg);
+background-size: cover;
+background-repeat:no-repeat; 
+background-position: center;  
+}
+
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+	margin-left:30px;  
+
+}
+
+ul{
+float:right;
+list-style-type: none;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	padding:5px 20px;
+	border:1px solid; 
+	transition: 0.5;
+}
+.menu{
+max-width: 1450px;
+margin-top: 30px;
+}
+ul li a:hover{ background-color:white;
+color:black;          
+}
+ul li .active a{
+	background-color: white;
+	color:black; 
+}
+
+.san{
+ 
+   width:2000px; 
+ margin: 50px auto;
+ margin-left:400px; 
+ color: white; 
+ display: grid;
+}
+.eve{
+ float:left; 
+  display:block; 
+   margin:50px; 
+   width:28%; 
+   padding:15px;
+   border-radius:5px;
+   box-shadow:0 2px 20px rgba(0,0,0,0.8);
+   color:white;  
+   font-family:Josefin Sans;
+           border:3px solid white; 
+}
+p{
+	font-size: 24px; 
+}
+.eve img{  
+	float:left;
+   margin:40px 20px 30px 0; 
+   width:200px;
+   height:200px;  
+   padding:15px;
+   border:2px solid white; 
+   border-radius:5px;	 
+}
+
+
+
+
+footer{
+	text-align: center;
+	background-color: blue;
+	color:white;
+	bottom:0;
+	padding:15px;
+	width: 100%;
+	position:fixed;  
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));   
+}
+

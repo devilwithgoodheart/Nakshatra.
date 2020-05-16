@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic2.jpg);
+background-size: cover;
+background-repeat:no-repeat; 
+background-position: center;
+height: 100vh;  
+}
+.logo img{
+  float:left;
+  width:100px;
+  height:auto;
+  margin-left:30px;  
+
+}
+ul{
+float:right;
+list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:5px 20px;
+  border:1px solid; 
+  transition: 0.5;
+}
+.menu{
+max-width: 1450px;
+margin-top: 30px;
+}
+ul li a:hover{ background-color:white;
+color:black;          
+}
+
+#contact{ 
+  background:transparent;
+  padding-top:10px;
+  padding-bottom:10px; 
+  color:white;
+
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+}
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background:#007BA7;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.follow{
+  color:black;
+   position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+.sin{
+  font-family:Josefin Sans;
+  padding:5px;
+  margin:5px  
+  border: 1px solid white;
+
+}
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+}
+b{
+  margin:5px;
+}
+.sin .fa{
+  color:#007BA7;
+  margin:10px;
+  font-weight:bold; 
+}
+footer{
+  text-align: center;
+  background-color: blue;
+  color:white;
+  bottom:0;
+  padding:20px;
+  width: 100%;
+  position:fixed;  
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));   
+}
